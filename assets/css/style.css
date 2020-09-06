@@ -300,7 +300,13 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/crisopa.jpg") bottom right;
   background-size: cover;
   position: relative;
+  animation: BgSwap 10s ease infinite;
 }
+
+@keyframes cambiarColor {   
+     0%   { background: url("../img/crisopa.jpg") bottom right;}   
+     100% { background: url("../img/aphidius_colemani") bottom right;}  
+  }
 
 #hero:before {
   content: "";
@@ -398,6 +404,8 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-5px);
   }
 }
+
+
 
 /*--------------------------------------------------------------
 # Sections General
