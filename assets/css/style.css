@@ -303,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   animation: BgSwap 10s ease infinite;
 }
 
-@keyframes cambiarColor {   
+@keyframes BgSwap {   
      0%   { background: url("../img/crisopa.jpg") bottom right;}   
      100% { background: url("../img/aphidius_colemani") bottom right;}  
   }
