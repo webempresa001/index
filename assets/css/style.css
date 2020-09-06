@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   position: relative;
   -webkit-animation: BgSwapp 10s ease infinite;
-  animation: BgSwap 10s ease infinite;
+  animation: BgSwap 20s ease infinite;
 }
 @-webkit-keyframes BgSwapp {   
      0%   { background: url("../img/crisopa.jpg") bottom right;background-size: cover;}
@@ -395,19 +395,19 @@ h1, h2, h3, h4, h5, h6 {
 
 @-webkit-keyframes up-down {
   0% {
-    transform: translateY(5px);
+    transform: translateY(0px);
   }
   100% {
-    transform: translateY(-5px);
+    transform: translateY(0px);
   }
 }
 
 @keyframes up-down {
   0% {
-    transform: translateY(5px);
+    transform: translateY(0px);
   }
   100% {
-    transform: translateY(-5px);
+    transform: translateY(0px);
   }
 }
 
