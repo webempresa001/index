@@ -1099,7 +1099,20 @@ color: #2AD7A8;
 }
 
 --------------------------------------------------------------*/
-
+.vbox-title {
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 6px 50px;
+    overflow: hidden;
+    position: fixed;
+    display: none;
+    left: 0;
+    z-index: 89;
+}
 
 .portfolio-wrap {
 text-align: center;
