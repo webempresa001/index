@@ -1,9 +1,4 @@
-/**
-* Template Name: Laura - v2.0.0
-* Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -124,6 +119,7 @@
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
+    autoplaySpeed: 2000,
     dots: true,
     loop: true,
     items: 1
