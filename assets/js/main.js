@@ -122,7 +122,7 @@
     autoplay: true,
     autoplaySpeed: 3000,
     dots: true,
-    loop: true,
+    loop: false,
     items: 1
   });
   // Porfolio isotope and filter
