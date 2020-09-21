@@ -299,6 +299,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background-size: cover;
   position: relative;
+  text-align: center;
 }
 
 #hero:before {
@@ -310,6 +311,13 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
 }
+
+@media (min-width: 1px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
 
 #hero .hero-container {
   position: absolute;
