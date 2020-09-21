@@ -364,6 +364,42 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffb727;
 }
 
+#hero .info-box {
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+}
+
+#hero .info-box i.bx {
+  font-size: 24px;
+  color: #2AD7A8;
+  border-radius: 50%;
+  padding: 15px;
+  background: #E5FAF4;
+}
+
+#hero .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+#hero .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+#hero .info-box h4 {
+  padding: 0;
+  line-height: 24px;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
 @media (max-width: 575px) {
   #hero h1 {
     font-size: 40px;
