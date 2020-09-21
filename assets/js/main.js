@@ -1,6 +1,15 @@
 
 !(function($) {
   "use strict";
+  
+// Contenido de insectos
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+      $('#start').fadeIn('slow');
+    } else {
+      $('#start').fadeOut('slow');
+    }
+  });
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
