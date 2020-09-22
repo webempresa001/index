@@ -4,7 +4,7 @@
   
 // Contenido de insectos
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 200) {
+    if ($(this).scrollTop() > 125) {
       $('#start').fadeIn('slow');
     } else {
       $('#start').fadeOut('slow');
