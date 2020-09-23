@@ -475,7 +475,7 @@ section {
 
 .about .content p {
       text-align: start;
-  margin-bottom: 0;
+      padding-bottom: 1rem;
 }
 
 .about .content ul {
