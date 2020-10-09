@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @keyframes BgSwap {   
      0%   { background: url("../img/crisopa.jpg") bottom right;background-size: cover;}
-     50%  { background: url("../img/aphidius_colemani.jpg") top right;background-size: cover;}
+     50%  { background: url("../img/a_nemoralis.jpg") top right;background-size: cover;}
      100%   { background: url("../img/crisopa.jpg") bottom right;background-size: cover;}
   }
 
