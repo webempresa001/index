@@ -1652,6 +1652,7 @@ font-size: 13px;
 }
 .modal.show .modal-dialog {
   transform: none;
+  max-width: 800px;
 }
 .modal.modal-static .modal-dialog {
   transform: scale(1.02);
