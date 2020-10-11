@@ -1864,7 +1864,9 @@ font-size: 13px;
 
 
 
-
+#cronologia {
+padding: 0 60px 0;
+}
 
 .timeline {
   position: relative;
