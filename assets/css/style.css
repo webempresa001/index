@@ -1923,7 +1923,7 @@ font-size: 13px;
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #2AD7A8;
+  background-color: #68B75C;
 }
 .timeline > li .timeline-image h4 {
   font-size: 10px;
@@ -2067,7 +2067,7 @@ Equipo
   bottom: -48px;
   left: 20px;
   right: 20px;
-  background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+  background: linear-gradient(360deg, #68B75C 0%, rgba(99, 169, 89, 0.9) 35%, rgba(132, 214, 120, 0.8) 100%);
   padding: 15px 0;
   border-radius: 4px;
 }
