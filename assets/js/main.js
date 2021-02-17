@@ -19,15 +19,7 @@ function cambiarClase()
 {
     $("#Modal1").css("display", "none");
 }
-  
-
-  
-//Cambiar src imagen
-function SrcSet(ImageId, ThisElementSRC)
-{
-  var element = document.getElementById(ImageId);
-  element.src = ThisElementSRC;
-}
+ 
   
 /* 
 //Cambiar imagen background
@@ -185,3 +177,9 @@ function BgSet(ElementId, ThisElementURL)
   });
 
 })(jQuery);
+//Cambiar src imagen
+function SrcSet(ImageId, ThisElementSRC)
+{
+  var element = document.getElementById(ImageId);
+  element.src = ThisElementSRC;
+}
