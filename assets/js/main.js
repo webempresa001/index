@@ -1,7 +1,7 @@
 
 !(function($) {
   "use strict";
-  
+/*  
 // Contenido de insectos
   $(window).scroll(function() {
     if ($(this).scrollTop() > 125) {
@@ -10,6 +10,7 @@
       $('#start').fadeOut('slow');
     }
   });
+*/
 
  //Cerrar modal
   $('.cerrarmodal').click(cambiarClase);
