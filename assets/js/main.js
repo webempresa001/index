@@ -23,10 +23,10 @@ function cambiarClase()
 
   
 //Cambiar src imagen
-function SrcSet(ImageId, ThisElementSRC)
+function SrcSet(ImageId, ThisImageSRC)
 {
-  var element = document.getElementById(ImageId);
-  element.src = ThisElementSRC;
+  var image = document.getElementById(ImageId);
+  image.src = ThisImageSRC;
 }  
   
 //Cambiar imagen background
