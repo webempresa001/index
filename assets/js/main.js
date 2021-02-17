@@ -19,6 +19,13 @@ function cambiarClase()
     $("#Modal1").css("display", "none");
 }
   
+//Cambiar imagen background
+function BgSet(ElementId, ThisElementURL)
+{
+  var element = document.getElementById(ElementId);
+  element.style.background = ThisElementURL;
+}
+  
   
   
   
