@@ -26,8 +26,8 @@ function cambiarClase()
 function showServices()
 {
     $(".hiddenServices").css("display", "block");
-    $(".thisHidesServices").css("display", "block");
-    $(".thisSowsServices").css("display", "none");
+    $(".hide-services").css("display", "block");
+    $(".show-services").css("display", "none");
 }
   
   $('.hide-services').click(hideServices);
@@ -35,8 +35,8 @@ function showServices()
 function hideServices()
 {
     $(".hiddenServices").css("display", "none");
-    $(".thisHidesServices").css("display", "none");
-    $(".thisSowsServices").css("display", "block");
+    $(".hide-services").css("display", "none");
+    $(".show-services").css("display", "block");
 }
   
 /* 
