@@ -20,6 +20,24 @@ function cambiarClase()
     $("#Modal1").css("display", "none");
 }
  
+//mostrar / ocultar servicios
+  $('.show-services').click(showServices);
+ 
+function showServices()
+{
+    $(".hiddenServices").css("display", "block");
+    $(".thisHidesServices").css("display", "block");
+    $(".thisSowsServices").css("display", "none");
+}
+  
+  $('.hide-services').click(hideServices);
+  
+function hideServices()
+{
+    $(".hiddenServices").css("display", "none");
+    $(".thisHidesServices").css("display", "none");
+    $(".thisSowsServices").css("display", "block");
+}
   
 /* 
 //Cambiar imagen background
