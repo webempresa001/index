@@ -66,6 +66,23 @@ function ShowDesc3()
     $(".Desc5").css("display", "none");
 }  
   
+function ShowDesc4()
+{
+    $(".Desc1").css("display", "none");
+    $(".Desc2").css("display", "none");
+    $(".Desc3").css("display", "none");
+    $(".Desc4").css("display", "block");
+    $(".Desc5").css("display", "none");
+}  
+ 
+function ShowDesc5()
+{
+    $(".Desc1").css("display", "none");
+    $(".Desc2").css("display", "none");
+    $(".Desc3").css("display", "none");
+    $(".Desc4").css("display", "none");
+    $(".Desc5").css("display", "block");
+}  
   
 /* 
 //Cambiar imagen background
