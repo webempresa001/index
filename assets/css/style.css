@@ -899,6 +899,7 @@ I+D+i
 #IDi {
   padding: 80px 0;
   position: relative;
+  transition: all 0.4s;
 }
 
 #IDi::before {
