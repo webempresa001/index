@@ -259,11 +259,12 @@ function SrcSet(ImageId, ThisElementSRC)
 }
 
 
+$(".owl-carousel").owlCarousel();
 
-$('.owl-carousel').owlCarousel({
-    onTranslated: function(me){
-        $(me.target).find(".owl-item.active [data-src]:not(.loaded)").each(function(i,v){
-            $(v).addClass("loaded").css("background-image", "url("+$(v).attr("data-src")+")");
-        });
-    }
+var owl = $(".owl-carousel");
+owl.owlCarousel();
+
+owl.on("change.owl.carousel", function (event) {
+  $("#testimonials").removeClass();
+  $("#testimonials").addClass($(".owl-item.active > .testimonial-item").attr("class"));
 });
