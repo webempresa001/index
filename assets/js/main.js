@@ -259,18 +259,3 @@ function SrcSet(ImageId, ThisElementSRC)
 }
 
 
-
-
-$(".owl-carousel").owlCarousel();
-
-var owl = $(".owl-carousel");
-owl.owlCarousel();
-
-owl.on("change.owl.carousel.delay(1000)", function (event) {
-  $("#IDi").removeClass();
-  $("#IDi").addClass(
-    $(".owl-item.active > .testimonial-item").attr("class")
-  );
-});
-
-
