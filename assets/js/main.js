@@ -260,15 +260,15 @@ function SrcSet(ImageId, ThisElementSRC)
 
 
 
-$(".owl-carousel").owlCarousel();
+
 
 var owl = $(".owl-carousel");
 owl.owlCarousel();
 
 owl.on("change.owl.carousel", function (event) {
   $("#IDi").removeClass();
-  $("#IDi").delay(2000).addClass(
+  $("#IDi").addClass(
     $(".owl-item.active > .testimonial-item").attr("class")
   );
 });
-
+$(".owl-carousel").owlCarousel();
