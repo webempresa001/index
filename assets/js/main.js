@@ -246,8 +246,9 @@ function BgSet(ElementId, ThisElementURL)
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
     speed: 800,
-    autoplay: false,
-    autoplaySpeed: 3000,
+    autoplay: true,
+    autoplayTimeout: 8000,
+    autoplaySpeed: 2500,
     dots: true,
     loop: false,
     items: 1
