@@ -247,8 +247,9 @@ function BgSet(ElementId, ThisElementURL)
   $(".testimonials-carousel").owlCarousel({
     speed: 800,
     autoplay: true,
-    autoplayTimeout: 8000,
+    autoplayTimeout: 12000,
     autoplaySpeed: 1000,
+    autoplayHoverPause: true,
     dots: true,
     loop: true,
     items: 1
