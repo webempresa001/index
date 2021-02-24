@@ -257,3 +257,18 @@ function SrcSet(ImageId, ThisElementSRC)
   var element = document.getElementById(ImageId);
   element.src = ThisElementSRC;
 }
+
+
+
+$(".owl-carousel").owlCarousel();
+
+var owl = $(".owl-carousel");
+owl.owlCarousel();
+
+owl.on("change.owl.carousel", function (event) {
+  $("#testimonials").removeClass();
+  $("#testimonials").addClass(
+    $(".owl-item.active > .testimonial-item").attr("class")
+  );
+});
+
