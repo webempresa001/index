@@ -914,27 +914,27 @@ I+D+i
 }
 
 #IDi.Cimg1{
- background: url("../img/IDi/1.jpg") no-repeat;
+ background: url("../img/IDi/1.jpg") no-repeat cover center center fixed;
 }
 
 #IDi.Cimg2{
- background: url("../img/IDi/2.jpg") no-repeat;
+ background: url("../img/IDi/2.jpg") no-repeat cover center center fixed;
 }
 
-.Cimg3{
- background: url("../img/IDi/3.jpg") no-repeat;
+#IDi.Cimg3{
+ background: url("../img/IDi/3.jpg") no-repeat cover center center fixed;
 }
 
-.Cimg4{
- background: url("../img/IDi/4.jpg") no-repeat;
+#IDi.Cimg4{
+ background: url("../img/IDi/4.jpg") no-repeat cover center center fixed;
 }
 
-.Cimg5{
- background: url("../img/IDi/5.jpg") no-repeat;
+#IDi.Cimg5{
+ background: url("../img/IDi/5.jpg") no-repeat cover center center fixed;
 }
 
-.Cimg6{
- background: url("../img/IDi/6.jpg") no-repeat;
+#IDi.Cimg6{
+ background: url("../img/IDi/6.jpg") no-repeat cover center center fixed;
 }
 
 
