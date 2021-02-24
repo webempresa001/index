@@ -248,7 +248,7 @@ function BgSet(ElementId, ThisElementURL)
     speed: 800,
     autoplay: true,
     autoplayTimeout: 8000,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 1000,
     dots: true,
     loop: true,
     items: 1
