@@ -38,6 +38,9 @@ function hideServices()
     $(".hide-services").css("display", "none");
     $(".show-services").css("display", "block");
 }
+ 
+  
+$('#Dshow1').click(ShowDesc1);
   
 function ShowDesc1()
 {
@@ -48,6 +51,8 @@ function ShowDesc1()
     $(".Desc5").css("display", "none");
 }  
 
+$('#Dshow2').click(ShowDesc2);  
+  
 function ShowDesc2()
 {
     $(".Desc1").css("display", "none");
@@ -56,6 +61,8 @@ function ShowDesc2()
     $(".Desc4").css("display", "none");
     $(".Desc5").css("display", "none");
 }  
+  
+$('#Dshow3').click(ShowDesc3);  
 
 function ShowDesc3()
 {
