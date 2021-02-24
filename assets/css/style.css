@@ -898,7 +898,6 @@ I+D+i
 --------------------------------------------------------------*/
 #IDi {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -913,6 +912,31 @@ I+D+i
   bottom: 0;
   background: rgba(14, 16, 17, 0.7);
 }
+
+.Cimg1{
+ background: url("../img/IDi/1.jpg") no-repeat;
+}
+
+.Cimg2{
+ background: url("../img/IDi/2.jpg") no-repeat;
+}
+
+.Cimg3{
+ background: url("../img/IDi/3.jpg") no-repeat;
+}
+
+.Cimg4{
+ background: url("../img/IDi/4.jpg") no-repeat;
+}
+
+.Cimg5{
+ background: url("../img/IDi/5.jpg") no-repeat;
+}
+
+.Cimg6{
+ background: url("../img/IDi/6.jpg") no-repeat;
+}
+
 
 #IDi .section-header {
   margin-bottom: 40px;
