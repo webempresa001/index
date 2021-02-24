@@ -436,8 +436,9 @@
 			}
 
 			this.$stage.children('.active').removeClass('active');
+			$("#IDi").removeClass();
 			this.$stage.children(':eq(' + matches.join('), :eq(') + ')').addClass('active');
-
+                        $("#IDi").addClass($(".owl-item.active > .testimonial-item").attr("class"));
 			this.$stage.children('.center').removeClass('center');
 			if (this.settings.center) {
 				this.$stage.children().eq(this.current()).addClass('center');
@@ -445,17 +446,6 @@
 		}
 	} ];
 	
-$(".owl-carousel").owlCarousel();
-
-var owl = $(".owl-carousel");
-owl.owlCarousel();
-
-owl.on("change.owl.carousel", function (event) {
-  $("#IDi").removeClass();
-  $("#IDi").addClass(
-    $(".owl-item.active > .testimonial-item").attr("class")
-  );
-});
 	/**
 	 * Create the stage DOM element
 	 */
