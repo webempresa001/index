@@ -12,6 +12,29 @@
   });
 */
 
+  jQuery(document).ready(function () {
+      titleCameBack();
+  });
+  function titleCameBack() {
+      jQuery(function () {
+          var message = "¡Te echamos de menos!";
+          var original;
+
+          jQuery(window).focus(function () {
+              if (original) {
+                  document.title = original;
+              }
+          }).blur(function () {
+              var title = jQuery('title').text();
+              if (title != message) {
+                  original = title;
+              }
+              document.title = message;
+          });
+      });
+  }
+  
+  
  //Cerrar modal
   $('.cerrarmodal').click(cambiarClase);
  
