@@ -266,7 +266,7 @@ var owl = $(".owl-carousel");
 owl.owlCarousel();
 
 owl.on("change.owl.carousel", function (event) {
-  $("#IDi").removeClass();
+  $("#IDi").delay(500).removeClass();
   $("#IDi").addClass(
     $(".owl-item.active > .testimonial-item").attr("class")
   );
