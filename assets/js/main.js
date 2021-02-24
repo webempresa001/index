@@ -250,7 +250,7 @@ function BgSet(ElementId, ThisElementURL)
     autoplayTimeout: 8000,
     autoplaySpeed: 2500,
     dots: true,
-    loop: false,
+    loop: true,
     items: 1
   });
   // Porfolio isotope and filter
