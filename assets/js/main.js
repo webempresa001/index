@@ -272,4 +272,4 @@ owl.on("change.owl.carousel", function (event) {
   );
 });
 
-$.delay(1000).(".owl-carousel").owlCarousel();
+$(".owl-carousel").delay(1000).owlCarousel();
