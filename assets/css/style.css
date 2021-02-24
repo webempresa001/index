@@ -900,8 +900,6 @@ I+D+i
   padding: 80px 0;
 }
 
-.owl-carousel figure {width:100%; height:450px; background-size:cover; background-position:center center; background-repeat:no-repeat;}
-
 #IDi::before {
   content: "";
   position: absolute;
