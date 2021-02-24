@@ -436,9 +436,7 @@
 			}
 
 			this.$stage.children('.active').removeClass('active');
-			this.$("#IDi").removeClass();
 			this.$stage.children(':eq(' + matches.join('), :eq(') + ')').addClass('active');
-                        this.$("#IDi").addClass($(".owl-item.active > .testimonial-item").attr("class"));
 			this.$stage.children('.center').removeClass('center');
 			if (this.settings.center) {
 				this.$stage.children().eq(this.current()).addClass('center');
