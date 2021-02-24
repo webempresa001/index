@@ -73,6 +73,8 @@ function ShowDesc3()
     $(".Desc5").css("display", "none");
 }  
   
+$('#Dshow4').click(ShowDesc4);   
+  
 function ShowDesc4()
 {
     $(".Desc1").css("display", "none");
@@ -81,6 +83,8 @@ function ShowDesc4()
     $(".Desc4").css("display", "block");
     $(".Desc5").css("display", "none");
 }  
+  
+$('#Dshow5').click(ShowDesc5); 
  
 function ShowDesc5()
 {
