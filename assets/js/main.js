@@ -271,4 +271,5 @@ owl.on("change.owl.carousel", function (event) {
     $(".owl-item.active > .testimonial-item").attr("class")
   );
 });
-$(".owl-carousel").owlCarousel();
+
+$.delay(1000).(".owl-carousel").owlCarousel();
