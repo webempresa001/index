@@ -444,7 +444,18 @@
 			}
 		}
 	} ];
+	
+$(".owl-carousel").owlCarousel();
 
+var owl = $(".owl-carousel");
+owl.owlCarousel();
+
+owl.on("change.owl.carousel", function (event) {
+  $("#IDi").removeClass();
+  $("#IDi").addClass(
+    $(".owl-item.active > .testimonial-item").attr("class")
+  );
+});
 	/**
 	 * Create the stage DOM element
 	 */
@@ -3446,15 +3457,3 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
-
-$(".owl-carousel").owlCarousel();
-
-var owl = $(".owl-carousel");
-owl.owlCarousel();
-
-owl.on("change.owl.carousel", function (event) {
-  $("#IDi").removeClass();
-  $("#IDi").addClass(
-    $(".owl-item.active > .testimonial-item").attr("class")
-  );
-});
