@@ -913,11 +913,11 @@ I+D+i
   background: rgba(14, 16, 17, 0.7);
 }
 
-.Cimg1{
+#IDi.Cimg1{
  background: url("../img/IDi/1.jpg") no-repeat;
 }
 
-.Cimg2{
+#IDi.Cimg2{
  background: url("../img/IDi/2.jpg") no-repeat;
 }
 
