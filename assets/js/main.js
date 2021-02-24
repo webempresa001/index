@@ -266,8 +266,8 @@ var owl = $(".owl-carousel");
 owl.owlCarousel();
 
 owl.on("change.owl.carousel", function (event) {
-  $("#IDi").delay(500).removeClass();
-  $("#IDi").addClass(
+  $("#IDi").removeClass();
+  $("#IDi").delay(2000).addClass(
     $(".owl-item.active > .testimonial-item").attr("class")
   );
 });
