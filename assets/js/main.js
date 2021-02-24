@@ -30,7 +30,7 @@ function showServices()
     $(".show-services").css("display", "none");
 }
   
-  $('.hide-services').click(hideServices);
+$('.hide-services').click(hideServices);
   
 function hideServices()
 {
