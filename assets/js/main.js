@@ -51,6 +51,7 @@ function showServices()
     $(".hiddenServices").css("display", "block");
     $(".hide-services").css("display", "block");
     $(".show-services").css("display", "none");
+    $(".s-i-d").css("display", "none");
 }
   
 $('.hide-services').click(hideServices);
@@ -62,6 +63,38 @@ function hideServices()
     $(".show-services").css("display", "block");
 }
  
+function service1()
+{
+    $(".services-item").css("display", "none");
+    $(".hide-services").css("display", "none");
+    $("services-item-1").css("display", "block");
+    $(".show-services").css("display", "block");
+}
+
+function service2()
+{
+    $(".services-item").css("display", "none");
+    $(".hide-services").css("display", "none");
+    $("services-item-2").css("display", "block");
+    $(".show-services").css("display", "block");
+}
+  
+function service3()
+{
+    $(".services-item").css("display", "none");
+    $(".hide-services").css("display", "none");
+    $("services-item-3").css("display", "block");
+    $(".show-services").css("display", "block");
+}
+  
+function service4()
+{
+    $(".services-item").css("display", "none");
+    $(".hide-services").css("display", "none");
+    $("services-item-4").css("display", "block");
+    $(".show-services").css("display", "block");
+}  
+  
   
 $('#Dshow1').click(ShowDesc1);
   
