@@ -830,7 +830,23 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
  margin-top:17px;
 }
 
-.hiddenServices, .services-item-1, .services-item-2, .services-item-3, .services-item-4 {
+.hiddenServices {
+  display:none;
+}
+
+.services-item-1{
+  display:none;
+}
+
+.services-item-2{
+  display:none;
+}
+
+.services-item-3{
+  display:none;
+}
+
+.services-item-4{
   display:none;
 }
 
