@@ -45,6 +45,7 @@ function cambiarClase()
  
 //mostrar / ocultar servicios
   $('.show-services').click(showServices);
+  $('.show-services-volver').click(showServices);
  
 function showServices()
 {
