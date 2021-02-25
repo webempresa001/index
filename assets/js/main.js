@@ -48,7 +48,7 @@ function cambiarClase()
  
 function showServices()
 {
-    $(".hiddenServices").css("display", "block");
+    $(".hide-services").css("display", "block");
     $(".services-item").css("display", "block");
     $(".show-services").css("display", "none");
     $(".s-i-d").css("display", "none");
