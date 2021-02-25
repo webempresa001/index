@@ -63,6 +63,8 @@ function hideServices()
     $(".show-services").css("display", "block");
 }
  
+ $('#S1bg').click(service1); 
+  
 function service1()
 {
     $(".services-item").css("display", "none");
@@ -70,6 +72,8 @@ function service1()
     $("services-item-1").css("display", "block");
     $(".show-services").css("display", "block");
 }
+  
+$('#S2bg').click(service2); 
 
 function service2()
 {
@@ -79,6 +83,8 @@ function service2()
     $(".show-services").css("display", "block");
 }
   
+$('#S3bg').click(service3); 
+  
 function service3()
 {
     $(".services-item").css("display", "none");
@@ -86,6 +92,8 @@ function service3()
     $("services-item-3").css("display", "block");
     $(".show-services").css("display", "block");
 }
+  
+$('#S4bg').click(service4); 
   
 function service4()
 {
