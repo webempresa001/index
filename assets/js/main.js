@@ -51,7 +51,11 @@ function showServices()
     $(".hide-services").css("display", "block");
     $(".services-item").css("display", "block");
     $(".show-services").css("display", "none");
-    $(".s-i-d").css("display", "none");
+    $("services-item-1").css("display", "none");
+    $("services-item-2").css("display", "none");
+    $("services-item-3").css("display", "none");
+    $("services-item-4").css("display", "none");
+    
 }
   
 $('.hide-services').click(hideServices);
