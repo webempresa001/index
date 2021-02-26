@@ -2155,7 +2155,7 @@ Equipo
   bottom: -48px;
   left: 20px;
   right: 20px;
-  background: linear-gradient(360deg, #68B75C 0%, rgba(99, 169, 89, 0.9) 35%, rgba(132, 214, 120, 0.8) 100%);
+  background: #fff;
   padding: 15px 0;
   border-radius: 4px;
 }
@@ -2164,7 +2164,7 @@ Equipo
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #fff;
+  color: #3b434a;
   position: relative;
   padding-bottom: 10px;
 }
@@ -2175,7 +2175,7 @@ Equipo
   display: block;
   width: 50px;
   height: 1px;
-  background: #fff;
+  background: #3b434a;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -2184,7 +2184,7 @@ Equipo
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #fff;
+  color: #3b434a;
 }
 
 .team .member .social {
@@ -2193,7 +2193,7 @@ Equipo
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #fff;
+  color: #3b434a;
 }
 
 .team .member .social a:hover {
