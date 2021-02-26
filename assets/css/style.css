@@ -840,6 +840,10 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   display:none;
 }
 
+.services-desc{
+  background: #fff;
+}
+
 
 #S1bg:hover{
   background: url('../img/servicios/1.jpg') no-repeat;
