@@ -50,58 +50,80 @@ function cambiarClase()
 function showServices()
 {
     $(".hide-services, .services-item").fadeIn('slow');
-    $(".show-services, .s-i-d").fadeOut('slow'); 
+    $(".show-services, .s-i-d").css("display", "none");
 }
   
 $('.hide-services').click(hideServices);
   
 function hideServices()
 {
-    $(".hiddenServices").css("display", "none");
-    $(".hide-services").css("display", "none");
-    $(".show-services").css("display", "block");
+    $(".hiddenServices, .hide-services").css("display", "none");
+    $(".show-services").fadeIn('slow');
 }
  
  $('#S1bg').click(service1); 
   
 function service1()
 {
-    $(".services-item").css("display", "none");
-    $(".hide-services").css("display", "none");
-    $(".services-item-1").css("display", "block");
-    $(".show-services").css("display", "block");
+    $(".services-item, .hide-services").css("display", "none");
+    $(".services-item-1, .show-services").fadeIn('slow');
 }
   
 $('#S2bg').click(service2); 
 
 function service2()
 {
-    $(".services-item").css("display", "none");
-    $(".hide-services").css("display", "none");
-    $(".services-item-2").css("display", "block");
-    $(".show-services").css("display", "block");
+    $(".services-item, .hide-services").css("display", "none");
+    $(".services-item-2, .show-services").fadeIn('slow');
 }
   
 $('#S3bg').click(service3); 
   
 function service3()
 {
-    $(".services-item").css("display", "none");
-    $(".hide-services").css("display", "none");
-    $(".services-item-3").css("display", "block");
-    $(".show-services").css("display", "block");
+    $(".services-item, .hide-services").css("display", "none");
+    $(".services-item-3, .show-services").fadeIn('slow');
 }
   
 $('#S4bg').click(service4); 
   
 function service4()
 {
-    $(".services-item").css("display", "none");
-    $(".hide-services").css("display", "none");
-    $(".services-item-4").css("display", "block");
-    $(".show-services").css("display", "block");
+    $(".services-item, .hide-services").css("display", "none");
+    $(".services-item-4, .show-services").fadeIn('slow');
 }  
+
+$('#S5bg').click(service5); 
   
+function service5()
+{
+    $(".services-item, .hide-services").css("display", "none");
+    $(".services-item-5, .show-services").fadeIn('slow');
+}  
+
+$('#S6bg').click(service6); 
+  
+function service6()
+{
+    $(".services-item, .hide-services").css("display", "none");
+    $(".services-item-6, .show-services").fadeIn('slow');
+}
+  
+$('#S7bg').click(service7); 
+  
+function service7()
+{
+    $(".services-item, .hide-services").css("display", "none");
+    $(".services-item-7, .show-services").fadeIn('slow');
+}
+
+$('#S8bg').click(service8); 
+  
+function service8()
+{
+    $(".services-item, .hide-services").css("display", "none");
+    $(".services-item-8, .show-services").fadeIn('slow');
+}  
   
 $('#Dshow1').click(ShowDesc1);
   
