@@ -102,6 +102,13 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+@media (max-width: 992px) {
+  .bar-logo{
+  position:absolute;
+  left:1rem;
+  }
+}
+
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #2AD7A8;
   text-decoration: none;
