@@ -49,10 +49,8 @@ function cambiarClase()
  
 function showServices()
 {
-    $(".hide-services").css("display", "block");
-    $(".services-item").css("display", "block");
-    $(".show-services").css("display", "none");
-    $(".s-i-d").css("display", "none");    
+    $(".hide-services, .services-item").fadeIn('slow');
+    $(".show-services, .s-i-d").fadeOut('slow'); 
 }
   
 $('.hide-services').click(hideServices);
