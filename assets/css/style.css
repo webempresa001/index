@@ -844,6 +844,10 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   background: #fff;
 }
 
+.services-desc .icon-box{
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 #S1bg:hover{
   background: url('../img/servicios/1.jpg') no-repeat;
