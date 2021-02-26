@@ -31,6 +31,17 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99999;
 }
 
+.bar-logo {
+  display:none;
+}
+
+@media (max-width: 992px) {
+  .bar-logo{
+  position:absolute;
+  left:1rem;
+  }
+}
+
 .back-to-top i {
   display: flex;
   align-items: center;
@@ -100,13 +111,6 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   margin-top: -1px;
   position: relative;
-}
-
-@media (max-width: 992px) {
-  .bar-logo{
-  position:absolute;
-  left:1rem;
-  }
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -837,7 +841,7 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
  margin-top:17px;
 }
 
-.bar-logo, .hiddenServices, .services-item-1, .services-item-2, .services-item-3, .services-item-4 {
+.hiddenServices, .services-item-1, .services-item-2, .services-item-3, .services-item-4 {
   display:none;
 }
 
