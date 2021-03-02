@@ -72,38 +72,34 @@ i {
 # Navigation Menu
 --------------------------------------------------------------*/
 
-$ribbon-bg = red
-$ribbon-w = 60px
-$ribbon-h = 80px
-$ribbon-notch = 15px
-
 .premio2019 {
-  width $ribbon-w
-  box-sizing border-box
-  height $ribbon-h
-  border ($ribbon-w * .5) solid $ribbon-bg
-  border-bottom $ribbon-notch solid transparent
-  border-top none
-  border-left 8rem
-  z-index = 10000
-
-  > a {
-    display block
-    box-sizing border-box
-    height $ribbon-w
-    width $ribbon-w
-    margin-left $ribbon-w * -.5
-    text-align center
-    padding 5px
-    color white
-    text-decoration none
+  width: 0;
+  box-sizing: border-box;
+  height: 100px;
+  border: 60px solid red;
+  border-bottom: 15px solid transparent;
+  border-top: none;
+  position: fixed;
+  left: 8rem;
+  z-index:10000;
   }
 
-  &:hover {
+ .premio2019 > a {
+    display: block;
+    box-sizing: border-box;
+    height: 20px;
+    margin-left: 60px -.5;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+  }
+
+ .premio2019:hover {
     border-left-color darken($ribbon-bg, 20%)
     border-right-color darken($ribbon-bg, 20%)
   }
-}
+
 
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
