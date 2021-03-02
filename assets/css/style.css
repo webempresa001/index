@@ -113,12 +113,6 @@ i {
     left: 1rem;
 }
 
-@media (max-width: 992px) {
-  .nav-logo-i {
-  display:block;
-  }
-}
-
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #2AD7A8;
   text-decoration: none;
