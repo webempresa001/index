@@ -35,17 +35,6 @@ i {
   z-index: 99999;
 }
 
-.bar-logo {
-  display:none;
-}
-
-@media (max-width: 992px) {
-  .bar-logo{
-  position:absolute;
-  left:1rem;
-  }
-}
-
 .back-to-top i {
   display: flex;
   align-items: center;
@@ -118,10 +107,17 @@ i {
 }
 
 .nav-logo-i {
-    display: block;
+    display:none;
     margin-top: -1px;
     position: absolute;
     left: 1rem;
+}
+
+@media (max-width: 992px) {
+  .nav-logo-i {
+  display:block;
+  left:1rem;
+  }
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
