@@ -78,6 +78,7 @@ i {
   border-bottom: 30px solid transparent; /* Right transparent */
   height: 200px;                  /* Increase element Width */
   left: 1rem;
+  position:fixed;
 }
 
 /* Desktop Navigation */
