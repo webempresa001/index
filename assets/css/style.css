@@ -71,6 +71,14 @@ i {
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
+
+.bookmarkRibbon {
+  border:       50px solid red;        /* All borders set */
+  border-top:  0;                      /* Remove left border */
+  border-bottom: 30px solid transparent; /* Right transparent */
+  height:        100px;                  /* Increase element Width */
+}
+
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
   margin: 0;
