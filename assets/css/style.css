@@ -73,10 +73,11 @@ i {
 --------------------------------------------------------------*/
 
 .premio2019 {
-  border:       50px solid red;        /* All borders set */
-  border-top:  0;                      /* Remove left border */
+  border: 50px solid red;        /* All borders set */
+  border-top: 0;                      /* Remove left border */
   border-bottom: 30px solid transparent; /* Right transparent */
-  height:        100px;                  /* Increase element Width */
+  height: 200px;                  /* Increase element Width */
+  left: 1rem;
 }
 
 /* Desktop Navigation */
