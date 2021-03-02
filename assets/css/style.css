@@ -72,13 +72,35 @@ i {
 # Navigation Menu
 --------------------------------------------------------------*/
 
+$ribbon-bg = red
+$ribbon-w = 60px
+$ribbon-h = 80px
+$ribbon-notch = 15px
+
 .premio2019 {
-  border: 50px solid red;        /* All borders set */
-  border-top: 0;                      /* Remove left border */
-  border-bottom: 30px solid transparent; /* Right transparent */
-  height: 200px;                  /* Increase element Width */
-  left: 1rem;
-  position:fixed;
+  width $ribbon-w
+  box-sizing border-box
+  height $ribbon-h
+  border ($ribbon-w * .5) solid $ribbon-bg
+  border-bottom $ribbon-notch solid transparent
+  border-top none
+
+  > a {
+    display block
+    box-sizing border-box
+    height $ribbon-w
+    width $ribbon-w
+    margin-left $ribbon-w * -.5
+    text-align center
+    padding 5px
+    color white
+    text-decoration none
+  }
+
+  &:hover {
+    border-left-color darken($ribbon-bg, 20%)
+    border-right-color darken($ribbon-bg, 20%)
+  }
 }
 
 /* Desktop Navigation */
