@@ -84,6 +84,8 @@ $ribbon-notch = 15px
   border ($ribbon-w * .5) solid $ribbon-bg
   border-bottom $ribbon-notch solid transparent
   border-top none
+  border-left 1rem
+  z-index = 10000
 
   > a {
     display block
