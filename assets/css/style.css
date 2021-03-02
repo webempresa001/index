@@ -117,6 +117,13 @@ i {
   position: relative;
 }
 
+.nav-logo-i {
+    display: block;
+    margin-top: -1px;
+    position: absolute;
+    left: 1rem;
+}
+
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #2AD7A8;
   text-decoration: none;
