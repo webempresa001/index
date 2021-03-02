@@ -107,7 +107,7 @@ i {
 }
 
 .nav-logo-i {
-    display: block;
+    display: none
     margin-top: -1px;
     position: absolute;
     left: 1rem;
