@@ -281,8 +281,10 @@ function BgSet(ElementId, ThisElementURL)
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
+      $('.premio2019').addClass('premio-scrolled');
     } else {
       $('.back-to-top').fadeOut('slow');
+      $('.premio2019').removeClass('premio-scrolled');
     }
   });
 
