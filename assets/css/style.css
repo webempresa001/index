@@ -86,7 +86,9 @@ i {
   }
 @media (max-width: 1350px) {
   .premio2019 {
-    
+    left: 1rem;
+    top:80px;
+    z-index: 996;
   }
 }
 
