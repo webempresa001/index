@@ -81,9 +81,15 @@ i {
   border-bottom: 15px solid transparent;
   border-top: none;
   position: fixed;
-  left: 8rem;
+  left: 15rem;
   z-index:10000;
   }
+@media (max-width: 1350px) {
+  .premio2019 {
+    
+  }
+}
+
 
  .premio2019 > a {
     display: block;
@@ -125,7 +131,7 @@ i {
   color: #3b434a;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 12px;
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
