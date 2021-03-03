@@ -280,9 +280,9 @@ function BgSet(ElementId, ThisElementURL)
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
-      $('.back-to-top, .nav-logo-i').fadeIn('slow');
+      $('.back-to-top').fadeIn('slow');
     } else {
-      $('.back-to-top, .nav-logo-i').fadeOut('slow');
+      $('.back-to-top').fadeOut('slow');
     }
   });
 
