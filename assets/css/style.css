@@ -91,10 +91,11 @@ i {
     top:80px;
     z-index: 996;
   }
-}
-.premio-scrolled {
+  .premio-scrolled {
    top:60px;
   }
+}
+
 
  .premio2019 > a {
     display: block;
