@@ -261,7 +261,7 @@ i {
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 34px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
@@ -271,6 +271,9 @@ i {
 
 .mobile-nav-toggle i {
   color: #3b434a;
+  position: absolute;
+  right: 1rem;
+  margin-top: 6px;
 }
 
 .mobile-nav {
