@@ -275,9 +275,7 @@ i {
   right: 1rem;
   margin-top: 6px;
 }
-.nav-scrolled-h{
- margin-top: -2px;
-}
+
 .mobile-nav {
   position: fixed;
   top: 55px;
@@ -363,6 +361,10 @@ i {
 
 .mobile-nav-active .mobile-nav-toggle i {
   color: #fff;
+}
+
+.nav-scrolled-h{
+ margin-top: -2px!important;
 }
 
 /*--------------------------------------------------------------
