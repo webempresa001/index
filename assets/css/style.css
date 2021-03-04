@@ -116,6 +116,14 @@ i {
 
 
 /* Desktop Navigation */
+
+@media (max-width: 995px) {
+  .nav-menu {
+    right: 0px;
+    position: absolute;
+  }
+}
+
 .nav-menu, .nav-menu * {
   margin: 0;
   padding: 0;
