@@ -119,7 +119,14 @@ i {
 
 @media (max-width: 1250px) {
   .nav-menu {
-    right: 0px;
+    right: 5rem;
+    position: absolute;
+  }
+}
+
+@media (max-width: 1075px) {
+  .nav-menu {
+    right: 1rem;
     position: absolute;
   }
 }
