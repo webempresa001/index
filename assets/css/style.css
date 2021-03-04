@@ -430,6 +430,8 @@ i {
   transition: 0.4s;
   color: rgba(255, 255, 255, 0.6);
   animation: up-down 1s ease-in-out infinite alternate-reverse both;
+  bottom: 1rem;
+  position: absolute;
 }
 
 #hero .btn-scroll i {
