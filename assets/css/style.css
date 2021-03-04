@@ -117,7 +117,7 @@ i {
 
 /* Desktop Navigation */
 
-@media (max-width: 995px) {
+@media (max-width: 1250px) {
   .nav-menu {
     right: 0px;
     position: absolute;
