@@ -114,6 +114,7 @@ i {
     border: 40px solid #bb1313;
     border-bottom: 15px solid transparent;
     border-top: none;
+    cursor: pointer;
   }
 
 
