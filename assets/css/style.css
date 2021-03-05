@@ -110,8 +110,9 @@ i {
   }
 
  .premio2019:hover {
-    border-left-color darken($ribbon-bg, 20%)
-    border-right-color darken($ribbon-bg, 20%)
+    border: 40px solid #bb1313;
+    border-bottom: 15px solid transparent;
+    border-top: none;
   }
 
 
